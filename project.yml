@@ -1,0 +1,30 @@
+name: Screenie
+options:
+  bundleIdPrefix: com.screenie
+  deploymentTarget:
+    macOS: "14.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+targets:
+  Screenie:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources
+    info:
+      path: Sources/Info.plist
+    entitlements:
+      path: Sources/Screenie.entitlements
+    dependencies:
+      - sdk: ScreenCaptureKit.framework
+      - sdk: Carbon.framework
+    settings:
+      SWIFT_VERSION: "6.0"
+      MACOSX_DEPLOYMENT_TARGET: "14.0"
+      PRODUCT_BUNDLE_IDENTIFIER: com.screenie.app
+      CODE_SIGN_STYLE: Automatic
+      ENABLE_HARDENED_RUNTIME: YES
+      GENERATE_INFOPLIST_FILE: NO
+      SWIFT_OBJC_BRIDGING_HEADER: ""
+      ALWAYS_SEARCH_USER_PATHS: NO

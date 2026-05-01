@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01182EE00EFFE481CAB418CB /* EditorWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D1CC9603EA300DC984BB5C /* EditorWindow.swift */; };
+		03C92C7EC5B0799109E08338 /* AnnotationCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1CFC53998431FF50DF327B /* AnnotationCanvas.swift */; };
+		21F570D2A826FB72321FA16B /* ScreenieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388D1A2A29E59CE10385BE76 /* ScreenieApp.swift */; };
+		29FBBCF7BC5C0C5EBD42F057 /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157D52E3BA198AD7E353CFF /* HistoryManager.swift */; };
+		4348E083BA26EEC2B6C80225 /* ScreenCaptureKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A30F222B81099A3520B5EF55 /* ScreenCaptureKit.framework */; };
+		4E5D79385D909481E7A6ED96 /* TimedCaptureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F37A085DE92FA59D1EFCA /* TimedCaptureController.swift */; };
+		6BEE98EB0A11A1356502F841 /* HotkeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E7DE12F5E063394435D8A0 /* HotkeyManager.swift */; };
+		7E409B77EAFAD092AE7E5583 /* AnnotationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5E97ABEB9DF4AD42AFAC6 /* AnnotationStore.swift */; };
+		859036D712D70E67FE78B19C /* AnnotationToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5D432602E87D7EEFA51D04 /* AnnotationToolbar.swift */; };
+		8A03A7C25D6A67C2527BF6F6 /* ColorPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE5931896D6E8A4D8A6CB369 /* ColorPickerManager.swift */; };
+		9C15425ED11C57553CA9A46A /* RulerOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F09BFA590F9A4726025D35 /* RulerOverlayView.swift */; };
+		9EFEAD68AD8EC2DA15900381 /* WindowCaptureOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CF0683A2E708D6DE52311C /* WindowCaptureOverlay.swift */; };
+		A45C5B0A121D2512E57357A6 /* OCRManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA83A7B1A6A052C8DA0479F /* OCRManager.swift */; };
+		A72D1878F011A108086523B1 /* CaptureOverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0BD5E3BA41FEA08F19536FD /* CaptureOverlayWindow.swift */; };
+		ABA470980B17F60D5289553E /* PinWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90AAA6502BD0D8CA3DCC6D /* PinWindow.swift */; };
+		AEFCD0ACEF59B24B86F62D3A /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346D31C3FE2D5DE8E106C549 /* Annotation.swift */; };
+		BEF4950C348ADF301E728327 /* ScreenCaptureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FCFA452174E797CAC1488EF /* ScreenCaptureManager.swift */; };
+		CE10CED210249DE683D75887 /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464860DC04E4CB37D671E37A /* EditorView.swift */; };
+		CF26EB5C47ECF9A5B5C95DE9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93228B9844FA6CF00BCE5BEA /* SettingsView.swift */; };
+		D0155FA9B21DDB20F5DBB63D /* ExportManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685681D57FE7ACBC8E188237 /* ExportManager.swift */; };
+		E746C97BD3DD94D8942F61E4 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DA987E5A5FC21BF115B0776 /* Carbon.framework */; };
+		EBD547A140162AEA80834C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01494D03219F22754F08A589 /* AppDelegate.swift */; };
+		FEBA7757C684A75DD71C0E4A /* CaptureOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDFD4E5D635FE69E0945DBB6 /* CaptureOverlayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01494D03219F22754F08A589 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		038C4D3B1ACFA2A73E394BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0DA987E5A5FC21BF115B0776 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		1FCFA452174E797CAC1488EF /* ScreenCaptureManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenCaptureManager.swift; sourceTree = "<group>"; };
+		2C90AAA6502BD0D8CA3DCC6D /* PinWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinWindow.swift; sourceTree = "<group>"; };
+		2D5D432602E87D7EEFA51D04 /* AnnotationToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationToolbar.swift; sourceTree = "<group>"; };
+		346D31C3FE2D5DE8E106C549 /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		388D1A2A29E59CE10385BE76 /* ScreenieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenieApp.swift; sourceTree = "<group>"; };
+		464860DC04E4CB37D671E37A /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		483AC7EF0DBD1E09CB7133E0 /* Screenie.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Screenie.entitlements; sourceTree = "<group>"; };
+		685681D57FE7ACBC8E188237 /* ExportManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportManager.swift; sourceTree = "<group>"; };
+		6F1F37A085DE92FA59D1EFCA /* TimedCaptureController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimedCaptureController.swift; sourceTree = "<group>"; };
+		74D5E97ABEB9DF4AD42AFAC6 /* AnnotationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationStore.swift; sourceTree = "<group>"; };
+		84E7DE12F5E063394435D8A0 /* HotkeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyManager.swift; sourceTree = "<group>"; };
+		93228B9844FA6CF00BCE5BEA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A30F222B81099A3520B5EF55 /* ScreenCaptureKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenCaptureKit.framework; path = System/Library/Frameworks/ScreenCaptureKit.framework; sourceTree = SDKROOT; };
+		ADA83A7B1A6A052C8DA0479F /* OCRManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRManager.swift; sourceTree = "<group>"; };
+		B157D52E3BA198AD7E353CFF /* HistoryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+		BB1CFC53998431FF50DF327B /* AnnotationCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationCanvas.swift; sourceTree = "<group>"; };
+		CDFD4E5D635FE69E0945DBB6 /* CaptureOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureOverlayView.swift; sourceTree = "<group>"; };
+		CEF6ADCAB04F4B175304CA6C /* Screenie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screenie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0F09BFA590F9A4726025D35 /* RulerOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulerOverlayView.swift; sourceTree = "<group>"; };
+		D3D1CC9603EA300DC984BB5C /* EditorWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorWindow.swift; sourceTree = "<group>"; };
+		DE5931896D6E8A4D8A6CB369 /* ColorPickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerManager.swift; sourceTree = "<group>"; };
+		E5CF0683A2E708D6DE52311C /* WindowCaptureOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowCaptureOverlay.swift; sourceTree = "<group>"; };
+		F0BD5E3BA41FEA08F19536FD /* CaptureOverlayWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureOverlayWindow.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C587D3E5822E3FEA2CBA2D62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4348E083BA26EEC2B6C80225 /* ScreenCaptureKit.framework in Frameworks */,
+				E746C97BD3DD94D8942F61E4 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37416713E8CAFBC3E25B1D88 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				038C4D3B1ACFA2A73E394BF5 /* Info.plist */,
+				483AC7EF0DBD1E09CB7133E0 /* Screenie.entitlements */,
+				A4DDF4510CC6EC74A59B1867 /* App */,
+				C3B64A5DB6437C6400BC37D1 /* Capture */,
+				5F4233B1F80C501DB0D38A80 /* Editor */,
+				7DBB52216CA87EB04D622A39 /* Features */,
+				F96A246BEB5A2379BA5FC1DF /* UI */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		5F4233B1F80C501DB0D38A80 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				346D31C3FE2D5DE8E106C549 /* Annotation.swift */,
+				BB1CFC53998431FF50DF327B /* AnnotationCanvas.swift */,
+				74D5E97ABEB9DF4AD42AFAC6 /* AnnotationStore.swift */,
+				2D5D432602E87D7EEFA51D04 /* AnnotationToolbar.swift */,
+				464860DC04E4CB37D671E37A /* EditorView.swift */,
+				D3D1CC9603EA300DC984BB5C /* EditorWindow.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		7DBB52216CA87EB04D622A39 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DE5931896D6E8A4D8A6CB369 /* ColorPickerManager.swift */,
+				685681D57FE7ACBC8E188237 /* ExportManager.swift */,
+				B157D52E3BA198AD7E353CFF /* HistoryManager.swift */,
+				ADA83A7B1A6A052C8DA0479F /* OCRManager.swift */,
+				2C90AAA6502BD0D8CA3DCC6D /* PinWindow.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		A4DDF4510CC6EC74A59B1867 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				01494D03219F22754F08A589 /* AppDelegate.swift */,
+				388D1A2A29E59CE10385BE76 /* ScreenieApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C3B64A5DB6437C6400BC37D1 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				CDFD4E5D635FE69E0945DBB6 /* CaptureOverlayView.swift */,
+				F0BD5E3BA41FEA08F19536FD /* CaptureOverlayWindow.swift */,
+				84E7DE12F5E063394435D8A0 /* HotkeyManager.swift */,
+				D0F09BFA590F9A4726025D35 /* RulerOverlayView.swift */,
+				1FCFA452174E797CAC1488EF /* ScreenCaptureManager.swift */,
+				6F1F37A085DE92FA59D1EFCA /* TimedCaptureController.swift */,
+				E5CF0683A2E708D6DE52311C /* WindowCaptureOverlay.swift */,
+			);
+			path = Capture;
+			sourceTree = "<group>";
+		};
+		CCDE7E81818EAF3D99B8FCDF = {
+			isa = PBXGroup;
+			children = (
+				37416713E8CAFBC3E25B1D88 /* Sources */,
+				D7BB10704D27DF2BF55BDA12 /* Frameworks */,
+				FFF1959C93E2D034E801D30D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BB10704D27DF2BF55BDA12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DA987E5A5FC21BF115B0776 /* Carbon.framework */,
+				A30F222B81099A3520B5EF55 /* ScreenCaptureKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F96A246BEB5A2379BA5FC1DF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				93228B9844FA6CF00BCE5BEA /* SettingsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		FFF1959C93E2D034E801D30D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEF6ADCAB04F4B175304CA6C /* Screenie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D662D0EF34B25B5AA9FBCB1F /* Screenie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EDC35C5697589C76E8DEAD4 /* Build configuration list for PBXNativeTarget "Screenie" */;
+			buildPhases = (
+				250B39F0776884E332B4A724 /* Sources */,
+				C587D3E5822E3FEA2CBA2D62 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Screenie;
+			packageProductDependencies = (
+			);
+			productName = Screenie;
+			productReference = CEF6ADCAB04F4B175304CA6C /* Screenie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C41415576D34ABCA8B81D35A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D662D0EF34B25B5AA9FBCB1F = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F4982E21BDFF9985C630B337 /* Build configuration list for PBXProject "Screenie" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CCDE7E81818EAF3D99B8FCDF;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FFF1959C93E2D034E801D30D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D662D0EF34B25B5AA9FBCB1F /* Screenie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250B39F0776884E332B4A724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFCD0ACEF59B24B86F62D3A /* Annotation.swift in Sources */,
+				03C92C7EC5B0799109E08338 /* AnnotationCanvas.swift in Sources */,
+				7E409B77EAFAD092AE7E5583 /* AnnotationStore.swift in Sources */,
+				859036D712D70E67FE78B19C /* AnnotationToolbar.swift in Sources */,
+				EBD547A140162AEA80834C72 /* AppDelegate.swift in Sources */,
+				FEBA7757C684A75DD71C0E4A /* CaptureOverlayView.swift in Sources */,
+				A72D1878F011A108086523B1 /* CaptureOverlayWindow.swift in Sources */,
+				8A03A7C25D6A67C2527BF6F6 /* ColorPickerManager.swift in Sources */,
+				CE10CED210249DE683D75887 /* EditorView.swift in Sources */,
+				01182EE00EFFE481CAB418CB /* EditorWindow.swift in Sources */,
+				D0155FA9B21DDB20F5DBB63D /* ExportManager.swift in Sources */,
+				29FBBCF7BC5C0C5EBD42F057 /* HistoryManager.swift in Sources */,
+				6BEE98EB0A11A1356502F841 /* HotkeyManager.swift in Sources */,
+				A45C5B0A121D2512E57357A6 /* OCRManager.swift in Sources */,
+				ABA470980B17F60D5289553E /* PinWindow.swift in Sources */,
+				9C15425ED11C57553CA9A46A /* RulerOverlayView.swift in Sources */,
+				BEF4950C348ADF301E728327 /* ScreenCaptureManager.swift in Sources */,
+				21F570D2A826FB72321FA16B /* ScreenieApp.swift in Sources */,
+				CF26EB5C47ECF9A5B5C95DE9 /* SettingsView.swift in Sources */,
+				4E5D79385D909481E7A6ED96 /* TimedCaptureController.swift in Sources */,
+				9EFEAD68AD8EC2DA15900381 /* WindowCaptureOverlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		362D8597A3B5C667CCC04854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Screenie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.screenie.app;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		54D62C842703CC16494A3F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6D51E78A1C00A8CEF6398603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Sources/Screenie.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.screenie.app;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		E402D9185C399A839BB142B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EDC35C5697589C76E8DEAD4 /* Build configuration list for PBXNativeTarget "Screenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362D8597A3B5C667CCC04854 /* Debug */,
+				6D51E78A1C00A8CEF6398603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F4982E21BDFF9985C630B337 /* Build configuration list for PBXProject "Screenie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54D62C842703CC16494A3F73 /* Debug */,
+				E402D9185C399A839BB142B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C41415576D34ABCA8B81D35A /* Project object */;
+}
